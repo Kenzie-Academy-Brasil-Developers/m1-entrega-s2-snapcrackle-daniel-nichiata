@@ -12,7 +12,7 @@ function snapCrackle(maxValue) {
     
         } else string += ` ${i},`
     }
-    return console.log(string)
+    return string
 }
 
-snapCrackle(15)
+console.log(snapCrackle(15)); 
